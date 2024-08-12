@@ -11,6 +11,10 @@ pnpm: 8.15.5
 # install dependencies
 pnpm install
 
+# update .env file
+VITE_APP_ID=your_app_id
+VITE_APP_SECRET=your_app_secret
+
 # serve with hot reload at localhost:3001
 pnpm dev
 ```
